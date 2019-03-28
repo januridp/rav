@@ -1,5 +1,5 @@
 # R.A.V
-React vs Angular vs Vue
+[![Build Status](https://travis-ci.org/januridp/rav.svg?branch=master)](https://travis-ci.org/januridp/rav)
 > Just a fun little site to compare GitHub stars of React, Angular, and Vue
 <p align="center">
   <img src="R-A-V.png"/>
