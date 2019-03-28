@@ -1,7 +1,10 @@
 # R.A.V
 React vs Angular vs Vue
 > Just a fun little site to compare GitHub stars of React, Angular, and Vue
-![rav](R-A-V.png)
+<p align="center">
+  <img src="R-A-V.png"/>
+</p>
+
 
 ### Getting Started
 To run this locally, clone the repo and use NPM to install the dependencies. (You’ll also need Node.js installed)
