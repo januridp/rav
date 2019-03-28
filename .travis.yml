@@ -8,8 +8,6 @@ branches:
 
 before_script:
   - npm install -g @angular/cli
-  - ng build --prod
-  - surge ./dist/rav/ rav.surge.sh
 
 script:
   - ng build --prod
