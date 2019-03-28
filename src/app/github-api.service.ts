@@ -5,9 +5,8 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class GithubApiService {
-  baseUrl:string = "https://api.github.com/repos/";
-  constructor(private httpClient : HttpClient) { }
-  
+  baseUrl:string = 'https://api.github.com/repos/';
+  constructor(private httpClient: HttpClient) { }  
   get_react(){
     return this.httpClient.get(this.baseUrl + 'facebook/react');
   }
