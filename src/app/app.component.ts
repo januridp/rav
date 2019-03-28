@@ -9,10 +9,10 @@ import { GithubApiService } from './github-api.service';
 })
 
 export class AppComponent {
-  title = 'R.A.V'; 
-  react  : any;
-  angular  : any;
-  vue  : any;
+  title   = 'RAV'; 
+  react   : any;
+  angular : any;
+  vue     : any;
 
   constructor(private githubApiService: GithubApiService){
 
