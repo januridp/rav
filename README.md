@@ -11,11 +11,17 @@ npm install
 ```
 
 ### Development
-Run
+Run:
 ```bash
 ng serve
 ```
 Start a dev server on [http://localhost:4200](http://localhost:4200)
+
+### Production
+To build for prod, run the following:
+```bash
+ng build --prod
+```
 
 ### Inspired
 [Has Vue passed React yet?](https://github.com/stursby/hasvuepassedreactyet)
