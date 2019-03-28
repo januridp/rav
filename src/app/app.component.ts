@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Profile } from './profile';
 import { GithubApiService } from './github-api.service';
 
 @Component({
