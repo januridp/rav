@@ -11,7 +11,7 @@ before_script:
 
 script:
   - ng build --prod
-  - ls -la
+  - cd dist && ls -la
 
 deploy:
   provider: surge
