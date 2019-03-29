@@ -1,13 +1,10 @@
 language: node_js
 node_js:
-  - "node"
-
-branches:
-  only:
-  - master
+  - "stable"
 
 before_script:
   - npm install -g @angular/cli
+  - ng version
 
 script:
   - ng build --prod
@@ -15,5 +12,6 @@ script:
 
 deploy:
   provider: surge
+  skip_cleanup: true
   project: ./dist/rav/
   domain: rav.surge.sh 
