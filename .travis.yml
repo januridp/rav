@@ -11,9 +11,9 @@ before_script:
 
 script:
   - ng build --prod
-  - cd dist && ls -la
+  - cd ./dist/rav/ && ls -la
 
 deploy:
   provider: surge
-  project: ./static/
+  project: ./dist/rav/
   domain: rav.surge.sh 
