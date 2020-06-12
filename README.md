@@ -1,5 +1,5 @@
 # R.A.V
-[![Build Status](https://travis-ci.org/januridp/rav.svg?branch=master)](https://travis-ci.org/januridp/rav)
+[![Build Status](https://travis-ci.com/januridp/rav.svg?branch=master)](https://travis-ci.com/januridp/rav)
 > Just a fun little site to compare GitHub stars of React, Angular, and Vue
 <p align="center">
   <img src="R-A-V.png"/>

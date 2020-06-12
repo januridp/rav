@@ -14,21 +14,30 @@ export class AppComponent {
   angular : any;
   vue     : any;
 
-  constructor(private githubApiService: GithubApiService){
+  constructor(
+    private githubApiService: GithubApiService
+  ){
 
-    this.githubApiService.get_react().subscribe((res : any)=>{
-      this.react = res;
+    this.githubApiService.get_react().subscribe((reactRes : any)=>{
+      this.react = reactRes;
     });
 
-    this.githubApiService.get_angular().subscribe((res : any)=>{
-      this.angular = res;
+    this.githubApiService.get_angular().subscribe((angularRes : any)=>{
+      this.angular = angularRes;
     });
 
-      this.githubApiService.get_vue().subscribe((res : any)=>{
-        this.vue = res;
-      });
+    this.githubApiService.get_vue().subscribe((vueRes : any)=>{
+      this.vue = vueRes;
+    });
+  }
 
+  ngOnInit() {
+    console.log("ngOnInit!!!");
+  }
 
+  refresh(): void {
+    window.location.reload();
+    console.log("Refresh!!!")
   }
 
 }
